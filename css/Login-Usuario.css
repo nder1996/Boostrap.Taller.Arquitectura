@@ -1,0 +1,75 @@
+.Pagina_Principal{
+	position: relative;
+	height: 650px;
+}
+
+
+.Principal{
+	position: relative;
+	display: flex;
+	top: 20px;
+}
+
+.Principal div{
+	width: 50%;
+	margin-left: 50px;
+}
+
+
+.Principal .Registrarme{
+	width: 50%;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.Principal .Registrarme h3{
+	position: relative;
+	text-align: left;
+	width: 90%;
+
+	
+}
+
+.Principal .Registrarme p{
+	width: 90%;
+	text-align: justify;
+}
+
+.Principal .Registrarme button{
+	position: relative;
+	top: -20px;
+	left: -50px;
+}
+
+.Principal .Login{
+	position: relative;
+	height: 360px;
+	top: 30px;
+
+}
+
+.Principal .Login form{
+	position: relative;
+		
+}
+
+.Principal .Login form input{
+	position: relative;
+	width: 140%;
+}
+
+.Principal .Login h3{
+	position: relative;
+	text-align: center;
+}
+
+.Principal .Login button{
+	position: relative;
+	left: 7%;
+	
+}
+
+.Principal .Login button a{
+	text-decoration: none;
+	color: white;
+}

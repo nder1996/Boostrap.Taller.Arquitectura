@@ -1,0 +1,44 @@
+
+.nav{
+	position: relative;
+	width: 100%;
+	left: 20%;
+	top: 100px;
+
+}
+
+
+.User_opcion{
+	position: relative;
+	border: 5px solid red;
+	top: 10px;
+	margin-top: 130px;
+	height: 500px;
+}
+
+.User_opcion .tab-pane{
+	position: relative;
+	display: flex;
+	    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.User_opcion .tab-pane .input{
+	position: relative;
+	border: 1px solid black;
+	width: 40%;
+	left: 1%;
+	top: 10px;
+	height: 130px;
+}
+
+.User_opcion .tab-pane .input label{
+	position: relative;
+	text-align: center;
+	font-size: 1.5vw;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	width: 100%;
+
+}
+

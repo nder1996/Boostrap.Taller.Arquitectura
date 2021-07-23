@@ -20,6 +20,16 @@ nav li a {
     font-size: 1.3vw;
 }
 
+
+nav li a:hover{
+    color: red !important;
+}
+
+
+nav li a i{
+    margin-left: 12px;
+}
+
 .carousel-inner {
     position: relative;
     width: 100%;
