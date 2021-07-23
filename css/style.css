@@ -57,7 +57,7 @@ nav li a i{
     flex-wrap: wrap;
     margin-bottom: 80px;
     margin-top: 20px;
-    left: 1.5%;
+   
 }
 
 .Servicios .Servicio {
@@ -65,7 +65,7 @@ nav li a i{
     width: 40%;
     display: flex;
     height: 350px;
-    margin-left: 90px;
+    margin-left: 130px;
     left: -1%;
 
 }
@@ -90,7 +90,7 @@ nav li a i{
 .Servicios div p {
     position: relative;
     text-align: justify;
-    font-size: 1vw;
+    font-size: 0.9vw;
     width: 87%;
 }
 
@@ -173,6 +173,15 @@ footer .Info-footer{
     text-align: center;
     width: 40%;
 }
+
+footer .Logo-footer {
+    color: white !important;
+    text-align: center;
+    font-size: 0.98vw;
+}
+
+
+
 
 footer .Info-footer h5{
     position: relative;

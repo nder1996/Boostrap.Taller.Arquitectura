@@ -1,0 +1,54 @@
+
+.img_servicio img{
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+.Mantenimiento{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.Mantenimiento h1{
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.Mantenimiento p{
+	position: relative;
+	width: 50%;
+	font-size:1vw ;
+	left: 25%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.Mantenimiento .Tarjetas{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 10%;	
+}
+
+.Mantenimiento .card{
+	margin-left: 100px;
+	height: 280px;
+}
+
+.Mantenimiento .card img{
+	
+	height: 280px;
+}
+
+
+.Mantenimiento .Tarjetas .card P{
+	position: relative;
+	font-size: 1.3vw;
+	top: -15px;
+}
