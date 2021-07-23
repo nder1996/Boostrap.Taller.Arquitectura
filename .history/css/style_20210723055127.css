@@ -1,0 +1,12 @@
+nav{
+    background-color: black !important;
+}
+
+nav li{
+    margin-left: 50px;
+}
+
+nav li a{
+    color:white !important;
+
+}

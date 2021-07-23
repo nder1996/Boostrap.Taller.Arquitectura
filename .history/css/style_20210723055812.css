@@ -1,0 +1,19 @@
+nav{
+    background-color: black !important;
+}
+
+nav li{
+    position:relative;
+    margin-left: 10px;
+    left:-10%;
+}
+
+nav li a{
+    color:white !important;
+    font-size: 1.3vw;
+}
+
+.carousel-inner{
+    position:relative;
+    width: 100x;
+}

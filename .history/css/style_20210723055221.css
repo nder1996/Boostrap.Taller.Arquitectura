@@ -1,0 +1,13 @@
+nav{
+    background-color: black !important;
+}
+
+nav li{
+    position:relative
+    left:-10%
+}
+
+nav li a{
+    color:white !important;
+
+}
