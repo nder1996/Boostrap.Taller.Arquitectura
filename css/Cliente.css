@@ -63,15 +63,27 @@ a{
 	flex-wrap: wrap;
 }
 
-.input .Extra div{
-	position: relative;
-	width: 40%;
-	border: 2px solid red;
-	margin-left: 20px;
 
+.input .Extra div{
+	width: 191px;
+	height: 218px;
+	font-size: 1vw;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border: 2px solid red;
 }
 
-.input .Extra div img{
-	width: 200px;
-	height: 228px;
+.input .Extra div p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.input .Extra div i{
+	font-size: 3.5vw;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.input .Extra p{
+	font-size: 0.8vw;
 }
