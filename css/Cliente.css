@@ -1,89 +1,108 @@
-a{
-	text-decoration: none;
-	color: black !important;
+
+.Pagina_Principal{
+    height: 80%;
 }
 
 
-.nav{
-	position: relative;
-	width: 100%;
-	left: 20%;
-	top: 100px;
-
+a {
+    text-decoration: none;
+    color: black !important;
 }
 
 
-.User_opcion{
-	position: relative;
-	border: 5px solid red;
-	top: 10px;
-	margin-top: 130px;
-	height: 800px;
+.nav {
+    position: relative;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    
+    left: -2.5%;
+
 }
 
-.User_opcion .tab-pane{
-	position: relative;
-	display: flex;
-	    flex-direction: row;
+.nav li{
+    margin-left: 35px;
+}
+
+.nav li button{
+    color: black;
+}
+
+.nav li button i{
+    margin-left: 10px;
+}
+/*----------OPCIONES DE USUARIO-------------------*/
+#pills-1{
+    height: 1050px;
+}
+
+#pills-1 .input{
+    text-align: center;
+    width: 43%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    
+}
+
+#pills-1 .input label{
+    font-size: 2vw;
+    margin-bottom: 50px;
+    border-bottom: 3px solid red;
+    background-color:transparent ;
+    padding: 2px;
+    color: black;
+    margin-top: 20px;
+}
+
+#pills-1 .input select{
+    margin-bottom: 50px;
+}
+
+#pills-1 .input .btn-Usuario{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#pills-1 .input .btn-Usuario button{
+    margin-left: 30px;
+}
+
+#pills-1 .Extra{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.User_opcion .tab-pane .input{
-	position: relative;
-	border: 1px solid black;
-	text-align: center;
-	width: 45%;
-	left: 1%;
-	top: 10px;
-	height: 580px;
+#pills-1 .Extra div{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.User_opcion .tab-pane .input label{
-	position: relative;
-	text-align: center;
-	font-size: 1.5vw;
-	margin-top: 10px;
-	margin-bottom: 25px;
-	width: 100%;
+#pills-1 .Extra div .form-check-input{
+    margin-top: 50px;
 }
 
-.User_opcion .tab-pane .input button{
-	position: relative;
-	text-align: center;
-	font-size: 1vw;
-	margin-top: 23px;
-	margin-bottom: 25px;
-	width: 60%;
+#pills-1 .Extra div h5{
+    font-size: 1.3vw;
+}
+
+#pills-1 .Extra div i{
+    font-size: 3vw;
+}
+
+#pills-1 .Extra div p{
+    font-size: 1vw;
+    margin-top: 10px;
 }
 
 
-.input .Extra{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+#pills-2{
+    text-align: center;
 }
 
-
-.input .Extra div{
-	width: 191px;
-	height: 218px;
-	font-size: 1vw;
-	margin-left: 20px;
-	margin-bottom: 10px;
-	border: 2px solid red;
-}
-
-.input .Extra div p{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.input .Extra div i{
-	font-size: 3.5vw;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-
-.input .Extra p{
-	font-size: 0.8vw;
+#pills-2 button{
+    margin-top: 30px;
+    margin-bottom:20px ;
 }
