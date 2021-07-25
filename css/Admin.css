@@ -1,0 +1,90 @@
+
+.Pagina_Principal{
+	height: 100%;
+}
+
+
+.Principal{
+	border: 5px solid red;
+}
+
+.Principal ul{
+	justify-content: center;
+	font-size: 20px;
+}
+
+.Principal ul li{
+	margin-left: 20px;
+}
+
+.Principal ul li button{
+	color: black;
+}
+
+.tab-content{
+	margin-top: 50px;
+}
+
+.tab-content table{
+	text-align: center;
+}
+
+
+/*--Factura - Admin----*/
+
+#pills-contact{
+	border: 5px solid blue;
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+.Factura-Codigo{
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 5px;
+
+}
+
+.Contenido_Factura{
+	position: relative;
+	border: 1px solid silver;
+	text-align: center;
+	width: 53%;
+	left: 10%;
+}
+
+.Contenido_Factura form{
+	border: 4px solid yellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.Contenido_Factura form label{
+	font-weight: bold;
+	margin-top: 15px;
+	width: 120%;
+}
+
+.Contenido_Factura form select{
+	width: 53%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Contenido_Factura form textarea{
+	width: 73%;
+}
+
+.Boton{
+	border: 5px solid red;
+	margin-top: 10px;
+}
+
+ .Boton button{
+ 	border: 5px solid black;
+}
+
+/*--Factura - Admin----*/

@@ -15,5 +15,16 @@ function Login(){
 		
 		}
 	}
+	if (Email=="admin@admin.com"){
+		if(Password=="123456789"){
+
+			//window.open('http://ejemplo.com/archivo.pdf', '_blank');
+
+			window.open('Admin.html')
+		
+		}
+	}
+
+
 
 }
