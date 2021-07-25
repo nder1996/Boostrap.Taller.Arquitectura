@@ -25,6 +25,14 @@ function Login(){
 		}
 	}
 
+		if (Email=="mecanico@mecanico.com"){
+		if(Password=="123456789"){
 
+			//window.open('http://ejemplo.com/archivo.pdf', '_blank');
+
+			window.open('Mecanico.html')
+		
+		}
+	}
 
 }

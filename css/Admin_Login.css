@@ -57,6 +57,7 @@
 	height: 490px;
 	width: 100%;
 	filter: blur(6px)
+	filter: brightness(50%);
 }
 
 
