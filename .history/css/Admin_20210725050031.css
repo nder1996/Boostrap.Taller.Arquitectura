@@ -5,7 +5,7 @@
 
 
 .Principal{
-	/*border: 5px solid red;*/
+	border: 5px solid red;
 }
 
 .Principal ul{
@@ -33,7 +33,7 @@
 /*--Factura - Admin----*/
 
 #pills-contact{
-
+	border: 5px solid blue;
 	margin-bottom: 20px;
 	height: 100%;
 }
@@ -43,10 +43,7 @@
 	margin-top: 50px;
 	margin-left: 20px;
 	border-radius: 5px;
-}
 
-.Factura-Codigo button{
-	color: black;
 }
 
 .Contenido_Factura{
@@ -58,11 +55,10 @@
 }
 
 .Contenido_Factura form{
-	border: 1px solid black;
+	border: 4px solid yellow;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: black;
 	
 }
 
@@ -79,56 +75,17 @@
 }
 
 .Contenido_Factura .form-control{
-	/**/
-
+	width: 80%;
+	border: 5px solid black;
 }
-
-.Contenido_Factura #Textarea_1{
-	border: 1px solid silver;
-	width: 70%;
-	height: 200px;
-}
-
-.Contenido_Factura #Textarea_2{
-	position: relative;
-	border: 1px solid silver;
-	width: 135%;
-	height: 200px;
-	left: -16%;
-}
-
 
 .Boton{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	border: 5px solid red;
+	margin-top: 10px;
 }
 
-.Boton button{
-	margin-left: 20px;
+ .Boton button{
+ 	border: 5px solid black;
 }
-
 
 /*--Factura - Admin----*/
-
-
-/*-------Diagnostico----------*/
-
-.Diagnostico{
-/**/
-}
-
-.Diagnostico-Codigo{
-	position: relative;
-	margin-top: 20px;
-	margin-left: 70px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-
-
-.Contenido_Diagnostico{
-	width: 100%;
-	margin-bottom: 20px;
-	text-align: center;
-}
-/*-------Diagnostico----------*/
