@@ -50,7 +50,13 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Mi diagnóstico automotriz <i class="far fa-newspaper"></i></button>
                 </li>
+                
             </ul>
+
+
+
+
+
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
                     <div class="input">
@@ -207,6 +213,42 @@
                                         <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                                 <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalToggleLabel">Debes Enviar una solicitud primero</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="btn_1"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Sint ratione, adipisci modi nisi eveniet exercitationem, cupiditate hic doloribus quidem corrupti maxime. Nobis quas minus impedit id reiciendis ex quo obcaecati?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Enviar solicitud</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalToggleLabel2">
+                                                        <video id="myVideo" width="420" height="276" controls>
+                                                            <source src="img/Mantenimiento preventivo vehículo.mp4" type="video/mp4">
+                                                            Your browser does not support HTML5 video.
+                                                        </video>
+                                                    </h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Hide this modal and show the first with the button below.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btn bg-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="Video_Icono"><i class="fas fa-video"></i></a>
+                                    <!--
+                                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
                                                     <h5 class="modal-title" id="exampleModalToggleLabel">Video Filmado en el taller</h5>
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
@@ -220,6 +262,7 @@
                                         </div>
                                     </div>
                                     <a class="btn btn-primary bg-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="Video_Icono"><i class="fas fa-video"></i></a>
+                                -->
                                 </td>
                                 <td class="text-center"><a class="btnEditar btn btn-primary" id="editar_usuario">SI</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">NO</a></td>
                             </tr>
