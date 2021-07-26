@@ -157,3 +157,13 @@ table tr a{
 	left: 10%;
 	margin-bottom: 20px;
 }
+
+
+tr .text-center1{
+	/*border: 5px solid black;*/
+}
+
+tr .text-center1 a{
+	margin-bottom: 5px ;
+	width: 65%;
+}

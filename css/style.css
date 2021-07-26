@@ -276,3 +276,9 @@ table{
     border-radius: 0;
 
 }
+
+table tr{
+    text-align: center;
+    vertical-align: middle;
+
+}
