@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+
+
+
 .Pagina_Principal {
     position: relative;
     overflow: hidden;
@@ -17,7 +21,8 @@ nav li {
 
 nav li a {
     color: white !important;
-    font-size: 1.3vw;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2vw;
 }
 
 
@@ -239,3 +244,35 @@ footer .img-london i{
     margin-left: 15px;
 }
 
+
+table{
+    border: 1px solid silver !important;
+}
+
+.Principal .nav button:hover,.Principal .nav button.active {
+
+    background-color: transparent;
+    color:black;
+    border-bottom: 3px solid red;
+    border-radius: 0;
+}
+
+.nav .nav-item button{
+
+}
+
+
+.tab-pane .nav button:hover,.tab-pane .nav button.active{
+    background-color: black !important;
+    color:white !important;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+}
+
+
+.tab-pane .nav button{
+    color:black !important;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+
+}

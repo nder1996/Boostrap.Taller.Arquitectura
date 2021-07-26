@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Mecanico.css">
+    <title>Taller Automotriz</title>
+</head>
+
+<body>
+    <div class="Pagina_Principal">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Index.html"><img src="img/Logo.png" alt="" style='width: 110px; height: 78px;'></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="mecanico-nav nav" id="nav">
+                        <li><a>Empleado - Mecanico<i class="fas fa-wrench"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="Principal container-fluid">
+            <br> 
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">REPARACION DEL VEHICULO<i class="fas fa-wrench"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-home" aria-selected="false">HOJA DE TRABAJO<i class="fas fa-print"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">VIDEO<i class="far fa-file-video"></i></button>
+                </li>
+            </ul>
+            <br> <br>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <table id="Admin-Clientes" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">NUMERO DE PLACA DEL VEHICULO</th>
+                                <th scope="col">CÓDIGO DEL VEHÍCULO</th>
+                                <th scope="col">DAÑOS</th>
+                                <th scope="col">PROGRESO DE LA REPARACION</th>
+                                <th scope="col">ESTADO DEL VEHICULO</th>
+                                <th scope="col">SOLICITUD DE INGRESO</th>
+                                <th scope="col">ACCIONES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1F51S2</th>
+                                <th>5sd4f5</th>
+                                <td> Lorem, ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                                <td> Lorem, ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                                <td> Lorem, ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                                <td> No puede ingresar al taller</td>
+                                <td><a class="btn btn btn-primary" id="editar_usuario">Editar</a><a class="btn btn btn-danger" id="borrar_usuario">Eliminar</a>
+                                    <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Informe</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12VRG</th>
+                                <th scope="col">Honda</th>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt.</td>
+                                <td>Negro</td>
+                                <td>HONDA JAZZ 1.5 I-MMD HEV ELEGANCE</td>
+                                <td>Puede ingresar al taller</td>
+                                <td class="text-center"><a class="btnEditar btn btn-primary" id="editar_usuario">Editar</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">Eliminar</a>
+                                    <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Informe</a>
+                                </td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!---->
+                </div>
+                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Cliente : 1 <br> Codigo del vehiculo : 2535lPO</button>
+                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cliente : 2 <br> Codigo del vehiculo : 253QW5lPO</button>
+                            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cliente : 3 <br> Codigo del vehiculo : 2535lPWRFO</button>
+                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cliente : 4 <br> Codigo del vehiculo : 2535lSDDFPO</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <img class="img-diagnostico" src="img/Diagnostico.jpg" alt="">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <img class="img-diagnostico" src="img/Diagnostico.jpg" alt="">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <img class="img-diagnostico" src="img/Diagnostico.jpg" alt="">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <img class="img-diagnostico" src="img/Diagnostico.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <br> <br> 
+                    <div class="Boton">
+                        <button type="button" class="btn btn-secondary">Editar Diagnostico</button>
+                        <button type="button" class="btn btn-success">Enviar Diagnostico</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <td>FECHA DE GRABACION</td>
+                                <td>COMENTARIOS</td>
+                                <td>CODIGO</td>
+                                <td>VIDEO</td>
+                                <td>ACCIONES</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-active">
+                                <td>5/16/2021 12:40PM</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Alias consequatur non dolor rem, aut, omnis ut praesentium exercitationem quod, quidem consectetur laborum? Nihil alias odit totam autem est nemo voluptatem.</td>
+                                <td>3DHD4</td>
+                                <td>
+                                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalToggleLabel">Video Filmado en el taller</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <video id="myVideo" width="420" height="276" controls>
+                                                        <source src="img/Mantenimiento preventivo vehículo.mp4" type="video/mp4">
+                                                        Your browser does not support HTML5 video.
+                                                    </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btn btn-primary bg-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="Video_Icono" style="width: 100%;"><i class="fas fa-video"></i></a>
+
+                                </td>
+                                <td>
+                                    <a class="btnEditar btn btn-primary" id="editar_usuario">Editar</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">Eliminar</a>
+                                     <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Informe</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer class="container-expand-lg">
+            <div class="Logo-footer">
+                <br> <br>
+                <img src="img/Logo.png" alt="" width="150" height="150">
+                <br> <br>
+                <p>
+                    Taller de mecánica eficiente, los esperamos para poder <br> atenderle y mantener su vehículo en perfecto estado.
+                </p>
+            </div>
+            <div class="Info-footer">
+                <br>
+                <h5>INFORMACIÓN DE CONTACTO</h5>
+                <br> <br>
+                <div class="Dirreccion">
+                    <div>Pereira <br> <br>
+                        Cra 10 No. 50 – 26 <br>
+                        Barrio Maraya <br>
+                        Teléfono: (+57) 6 341 3235 <br>
+                        Celular: (+57) 313 571 8406
+                    </div>
+                    <div>Medellín <br> <br>
+                        El Poblado, Calle 10 # 42 – 45 <br>
+                        Edificio La Plaza, oficina 318 <br>
+                        Teléfono: (+57) 4 545 4253 Celular: <br>
+                        (+57) 310 440 9875 <br>
+                    </div>
+                </div>
+                <div>
+                    <br><br>
+                    <h5>SOPORTE DIRECTO DESDE WHATSAPP</h5>
+                    <h6>POLÍTICA DE TRATAMIENTO DE DATOS</h6>
+                </div>
+            </div>
+            <div>
+                <br> <br>
+                <div class="img-london">
+                    <br> <br>
+                    <h1>¡RECUERDA! Puedes seguirnos a través de todas nuestras redes sociales</h1>
+                    <br>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <br> <br>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/Login.js"></script>
+</body>
+
+</html>

@@ -59,7 +59,7 @@ a {
 #pills-1 .input label{
     font-size: 2vw;
     margin-bottom: 50px;
-    border-bottom: 3px solid red;
+    /*border-bottom: 3px solid red;*/
     background-color:transparent ;
     padding: 2px;
     color: black;
