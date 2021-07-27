@@ -1,38 +1,33 @@
 
-function Login(){
 
-	var Email = $("#Input_Email").val();
+function Login() {
 
 
-	var Password = $("#Input_Password").val();
+    var Email = $("#Input_Email").val();
+    var Password = $("#Input_Password").val();
 
-	if (Email=="ander@gmail.com"){
-		if(Password=="123456789"){
+  
 
-			//window.open('http://ejemplo.com/archivo.pdf', '_blank');
 
-			window.open('Cliente.html')
-		
-		}
-	}
-	if (Email=="admin@admin.com"){
-		if(Password=="123456789"){
 
-			//window.open('http://ejemplo.com/archivo.pdf', '_blank');
+    if (Email == "ander@gmail.com") {
+        if (Password == "123456789") {
 
-			window.open('Admin.html')
-		
-		}
-	}
+            window.open('Cliente.html')
+        }
+    }
 
-		if (Email=="mecanico@mecanico.com"){
-		if(Password=="123456789"){
 
-			//window.open('http://ejemplo.com/archivo.pdf', '_blank');
+    if (Email == "mecanico@mecanico.com") {
+        if (Password == "123456789") {
 
-			window.open('Mecanico.html')
-		
-		}
-	}
+            window.open('Mecanico.html')
+        }
+    }
+
+
+
+
 
 }
+

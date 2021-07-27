@@ -244,3 +244,9 @@ text-align: center;
     position: relative;
     top: 1px;
 }
+
+
+.text-center a{
+    margin-left: 15px;
+    width: 25%;
+}
