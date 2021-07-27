@@ -28,7 +28,7 @@
             </div>
         </nav>
         <div class="Principal container-fluid">
-            <br> 
+            <br>
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">REPARACION DEL VEHICULO<i class="fas fa-wrench"></i></button>
@@ -37,7 +37,10 @@
                     <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-home" aria-selected="false">HOJA DE TRABAJO<i class="fas fa-print"></i></button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">VIDEO<i class="far fa-file-video"></i></button>
+                    <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Solicitudes<i class="fas fa-file-medical-alt"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-4-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">VIDEO<i class="far fa-file-video"></i></button>
                 </li>
             </ul>
             <br> <br>
@@ -106,13 +109,51 @@
                             </div>
                         </div>
                     </div>
-                    <br> <br> 
+                    <br> <br>
                     <div class="Boton">
                         <button type="button" class="btn btn-secondary">Editar Diagnostico</button>
                         <button type="button" class="btn btn-success">Enviar Diagnostico</button>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">CODIGO DE LA SOLICITUD</th>
+                                <th scope="col">CEDULA DEL SOLICITANTE</th>
+                                <th scope="col">PLACA DEL VEHICULO DEL SOLICITANTE</th>
+                                <th scope="col">ESTADO DE LA VEHICULO</th>
+                                <th scope="col">EL VEHICULO PUEDE INGRESAR</th>
+                                <th scope="col">ACCIONES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">12547512</th>
+                                <th scope="col">6556565</th>
+                                <td>5S4G5-FS</td>
+                                <td>NECESITA UN SERVICIO QUE NO PODEMOS BRINDARLE</td>
+                                <td>NO PUEDE INGRESAR</td>
+                                <td class="text-center1"><a class="btnEditar btn btn-primary" id="editar_usuario">Editar</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">Eliminar</a>
+                                    <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Infome</a>
+                                </td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th scope="row">121544124</th>
+                                <th scope="col">54484455</th>
+                                <td>S54FD5-DF</td>
+                                <td>NECESITA UN SERVICIO QUE PODEMOS BRINDARLE</td>
+                                <td>PUEDE INGRESAR</td>
+                                <td class="text-center1"><a class="btnEditar btn btn-primary" id="editar_usuario">Editar</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">Eliminar</a>
+                                    <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Infome</a>
+                                </td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-3-tab">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
@@ -146,11 +187,10 @@
                                         </div>
                                     </div>
                                     <a class="btn btn-primary bg-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="Video_Icono" style="width: 100%;"><i class="fas fa-video"></i></a>
-
                                 </td>
                                 <td>
                                     <a class="btnEditar btn btn-primary" id="editar_usuario">Editar</a><a class="btnBorrar btn btn-danger" id="borrar_usuario">Eliminar</a>
-                                     <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Informe</a>
+                                    <a class="btnBorrar btn btn-secondary" id="borrar_usuario">Enviar Informe</a>
                                 </td>
                             </tr>
                         </tbody>
