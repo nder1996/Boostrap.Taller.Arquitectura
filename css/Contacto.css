@@ -1,0 +1,76 @@
+
+.Contacto-img{
+	/*border: 5px solid red;*/
+}
+
+.Contacto-img img{
+	width: 100%;
+	height: 200px;
+}
+.Formulario{
+	display: flex;
+	padding-left: 150px;
+	margin-top: 180px;
+	border: 5px solid black;
+	height: 500px;
+	width: 100%;
+}
+
+.Formulario div{
+	margin-left: 70px;
+	/*border: 5px solid blue;*/
+}
+
+.Formulario .Info{
+	border: 2px solid black;
+	width: 40%;
+}
+
+.Formulario .Info form{
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+
+.Formulario .Info form section{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5vw;
+	height: 80px;
+	width: 100%;
+	top: 30px;
+	left: -4%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Formulario .Info form .Solicite{
+	position: relative;
+		
+}
+
+.Formulario .Info section h2,.Formulario .Info section p{
+	margin-left: 20px;
+}
+
+.Formulario .Info section p{
+	font-size: 0.9vw;
+}
+
+.Personal{
+	border: 5px solid silver;
+	width: 100%;
+	height: 490px;
+}
+
+.Personal form{
+	border: 5px solid red;
+	width: 50%;
+}
+
+.Personal form .mb-3{
+	border: 5px solid blue;
+	text-align: center;
+}

@@ -150,6 +150,8 @@
 
 #Video_111{
 	position: relative;
+	margin-bottom: 15px;
+	margin-top: 45px;
 	
 }
 
@@ -172,14 +174,14 @@
 .Publicidad_video div video{
 	width: 420px;
 	height: 200px;
-	border: 4px solid black;
+	border: 3px solid black;
 }
 
 .cont-princ-slider{
 	text-align: center;
 	height: 100%;
 	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-top: 70px;
 
 }
 
@@ -189,6 +191,7 @@
 
 .cont-princ-slider h3{
 	margin-bottom: 25px;
+	margin-top: 25px;
 }
 
 .juegos_DWG{
