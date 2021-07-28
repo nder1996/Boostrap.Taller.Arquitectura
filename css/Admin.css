@@ -17,11 +17,12 @@
 
 .Principal ul li{
 	margin-left: 2px;
-	font-size: 20px;
+	
 }
 
 .Principal ul li button{
 	color: black;
+	font-size: 19px;
 }
 
 .tab-content{
@@ -170,4 +171,19 @@ tr .text-center1 a{
 
 #Agregar_Empleado{
 	margin-bottom:25px; 
+}
+
+
+.icono{
+	font-size: 30px;
+}
+
+table tbody tr td a{
+	width: 60%;
+	margin-top: 10px;
+}
+
+
+table tbody tr td i{
+	font-size: 25px;
 }
