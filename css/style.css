@@ -1,14 +1,193 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 
+@media (min-width: 1000px) {
+    .Pagina_Principal {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .Marco_Secundario {
+        border: 5px solid red;
+        width: 95%;
+        margin: auto;
+    }
 
 
-.Pagina_Principal {
-    position: relative;
-    overflow: hidden;
-    height: 100%;
+
+    .Pagina_Principal nav {
+        height: 70px !important;
+        /*responsive para telefonos*/
+    }
+
+
+    .Pagina_Principal nav img {
+        margin-left: 25px;
+    }
+
+
+    .Pagina_Principal nav ul {
+        position: relative;
+        right: 25px;
+    }
+
+
+    .Pagina_Principal nav li {
+        position: relative;
+        margin-left: 15px;
+
+    }
+
+    .Pagina_Principal nav a {
+        color: white !important;
+        font-size: 1.2vw;
+    }
+
+    .Pagina_Principal nav a:hover {
+        color: red !important;
+    }
+
+
+    .Pagina_Principal nav img {
+        height: 60px;
+    }
+
+
+    .carousel-inner {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        height: 580px;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 750px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        left: 2px !important;
+        top: -305px;
+        color: white !important;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+
+
+    .Info_Servicios section {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .Info_Servicios img {
+        border-radius: 5px;
+    }
+
+
+    .section_info {
+        /* border: 5px solid red;*/
+        padding: 5px;
+    }
+
+    .section_info p {
+        /*  border: 5px solid red;*/
+        width: 90%;
+        margin: auto;
+    }
+
 }
 
 
+
+
+@media (max-width: 600px) {
+
+    .Pagina_Principal {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .Marco_Secundario {
+        border: 5px solid red;
+        width: 95%;
+        margin: auto;
+    }
+
+    .Pagina_Principal nav {
+        height: 100% !important;
+        text-align: right;
+        /*responsive para telefonos*/
+    }
+
+    .boton_responsive {
+        background-color: rgb(192, 192, 192, 0.1);
+    }
+
+
+    .Pagina_Principal nav img {
+        width: 60% !important;
+        height: 80px !important;
+
+
+    }
+
+    .Pagina_Principal .a_img {
+        width: 30% !important;
+    }
+
+    .Pagina_Principal nav a {
+        color: white !important;
+        font-size: 5vw;
+    }
+
+    .carousel-inner {
+     
+        height: 880px;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 300px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        top: -100px;
+        border: 5px solid red;
+        color: white !important;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+
+/*
+    .carousel-inner {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        height: 580px;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 750px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        left: 2px !important;
+        top: -305px;
+        color: white !important;
+        background-color: rgb(0, 0, 0, 0.5);
+    }*/
+
+
+
+
+
+}
+
+
+/*
 nav {
     background-color: black !important;
 }
@@ -317,7 +496,7 @@ table tr{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 80px;*/
+    margin-bottom: 80px;
 }
 
 .Publicidad_Extra #Texto{
@@ -345,6 +524,3 @@ table tr{
    top: -10px;
    margin-bottom: 25px;
 }
-
-
-
