@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 5px solid red;
+    width: 800px;
+    height: 200px;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#container h3{
+    border: 5px solid red;
+    text-align: center;
+    width: 35%;
+    font-size: 4vw;
+    position: relative;
+    left: 8%;
+}
+
+#container ul {
+    margin-bottom:50px ;
+    list-style: none;
+    width: 4000px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    top: 45px !important;
+    -webkit-animation: scoll 6s linear 1s infinite;
+}
+
+#container ul li {
+    text-align: center;
+    border: 5px solid red;
+    float: left;
+    margin-right: 20px;
+}
+
+@-webkit-keyframes scoll {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -1100px;
+    }
+}

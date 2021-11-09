@@ -159,38 +159,37 @@
 
     }
 
-    .card-body{
-       /* border: 5px solid red;*/
+    .tarjeta_info {
         background-color: rgb(192, 192, 192, 0.1);
         display: flex;
+        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
     }
 
-    .content_info{
-       /* border: 5px solid red;*/
+    .content_info {
         padding-bottom: 10px;
         padding-top: 10px;
         margin-top: 25px;
     }
 
-    .texto_info{
+    .texto_info {
         text-align: justify;
         width: 82%;
         margin: auto;
         padding: 5px;
     }
 
-    .section_info{
-      /*  border: 5px solid purple;*/
-         width: 55%;
+    .section_info {
+        /*  border: 5px solid purple;*/
+        width: 55%;
     }
 
-   .img_info{
-    /*border: 5px solid red;*/
-   
-    border-radius: 5px;
-    width: 45%;
-    margin-right: 10px;
-   }
+    .img_info {
+        /*border: 5px solid red;*/
+
+        border-radius: 5px;
+        width: 45%;
+        margin-right: 10px;
+    }
 
 
     /*
