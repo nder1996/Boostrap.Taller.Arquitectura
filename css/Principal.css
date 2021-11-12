@@ -1,5 +1,242 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 
+@media (min-width: 1300px) {
+
+    .Pagina_Principal {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .Marco_Secundario {
+        /*border: 7px solid red;*/
+        width: 98%;
+        margin: auto;
+
+    }
+
+    .Pagina_Principal nav {
+        height: 80px !important;
+
+    }
+
+    nav ul li {
+        margin-left: 1.2vw;
+    }
+
+
+
+    .Pagina_Principal nav img {
+        width: 45% !important;
+        height: 55px !important;
+
+
+    }
+
+    .Pagina_Principal .a_img {
+        width: 10% !important;
+    }
+
+    .Pagina_Principal nav a {
+        color: white !important;
+        font-size: 1.2vw;
+    }
+
+    .Pagina_Principal nav a:hover {
+        color: red !important;
+    }
+
+    .carousel-inner {
+        /*  border: 4px solid red;*/
+        height: 650px;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 650px;
+    }
+
+    .Info_Servicios {
+        /* border: 4px solid red;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text_carrusel {
+        margin: auto;
+        position: relative;
+        color: white !important;
+        background-color: rgb(0, 0, 0, 0.5);
+        top: -347px;
+        width: 70%;
+
+    }
+
+    .tarjeta_info {
+        display: flex;
+        background-color: rgb(192, 192, 192, 0.1);
+        margin: auto;
+        width: 100%;
+        height: 350px;
+        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+    }
+
+    .content_info {
+        /* border: 4px solid black;*/
+        margin-left: 35px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 25px;
+        width: 47%;
+        /*height: 520px;*/
+    }
+
+    .texto_info {
+        text-align: justify;
+        width: 82%;
+        margin: auto;
+        font-size: 1.03vw !important;
+    }
+
+    .section_info h3 {
+        /*  border: 4px solid red;*/
+        font-size: 1.3vw !important;
+    }
+
+    .section_info {
+        /*   border: 5px solid purple;*/
+        width: 60%;
+    }
+
+    .img_info {
+        width: 50%;
+        border-radius: 5px;
+        margin-right: 10px;
+        /* border-radius: 5px solid red;*/
+    }
+
+    .Publicidad_Extra {
+        text-align: center;
+       /* border: 4px solid red;*/
+    }
+
+    .Publicidad_Extra p {
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .Publicidad_Extra div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Publicidad_Extra section {
+       /* border: 4px solid red;*/
+        width: 30%;
+        margin-left: 25px;
+
+    }
+
+    .Publicidad_Extra video {
+        width: 100%;
+        height: 200px;
+    }
+
+    footer {
+      /*  border: 5px solid yellow;*/
+        color: white !important;
+        flex-direction: row;
+        justify-content: center;
+       /* background-color: black;*/
+        font-size: 1vw;
+    }
+
+    footer div {
+      /*  border: 5px solid blue;*/
+        width: 100;
+        margin-top: 25px;
+    }
+
+    .Flex_Info {
+        width: 100%;
+    }
+
+    .Flex_Info div {
+        width: 43%;
+    }
+
+
+    footer .section_1 img {
+        width: 30%;
+    }
+
+    footer .section_1 p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer .section_2 {
+        /*  font-size: 3.5vw;*/
+    }
+
+    footer .section_2 section {
+        width: 100%;
+        position: relative;
+    }
+
+    .info_dos section {
+        margin-left: 25px;
+        width: 44% !important;
+        position: relative;
+        right: 17px;
+    }
+
+    footer .informacion_final {
+        /* font-size: 3.5vw;*/
+    }
+
+
+    footer .img-london div {
+        margin: auto;
+        width: 70%;
+        position: relative;
+        text-align: center;
+        background-color: white !important;
+        border-radius: 10px;
+        /* width: 80%;*/
+        height: 170px;
+        padding: 10px;
+    }
+
+    footer .img-london h1 {
+        position: relative;
+        color: rgb(84, 89, 95) !important;
+        font-size: 16px;
+    }
+
+    footer .img-london i {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vw;
+        margin-left: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (min-width: 1000px) {
     .Pagina_Principal {
         overflow: hidden;
@@ -16,7 +253,6 @@
 
     .Pagina_Principal nav {
         height: 70px !important;
-        /*responsive para telefonos*/
     }
 
 
@@ -85,21 +321,19 @@
 
 
     .section_info {
-        /* border: 5px solid red;*/
         padding: 5px;
     }
 
     .section_info p {
-        /*  border: 5px solid red;*/
         width: 90%;
         margin: auto;
     }
 
 }
 
+*/
 
-
-
+/*
 @media (max-width: 600px) {
 
     .Pagina_Principal {
@@ -108,7 +342,6 @@
     }
 
     .Marco_Secundario {
-       /* border: 5px solid red;*/
         width: 100%;
         margin: auto;
     }
@@ -116,7 +349,6 @@
     .Pagina_Principal nav {
         height: 100% !important;
         text-align: right;
-        /*responsive para telefonos*/
     }
 
     .boton_responsive {
@@ -200,8 +432,6 @@
     }
 
     .img_info {
-        /*border: 5px solid red;*/
-
         border-radius: 5px;
         width: 45%;
         margin-right: 10px;
@@ -227,7 +457,6 @@
 
     footer{
         color: white !important;
-       /* border: 5px solid red;*/
         flex-direction: column;
         justify-content: center;
         background-color: black;
@@ -238,38 +467,27 @@
         border: 5px solid black;
         width: 100;
         margin-top: 25px;
-      /*  border: 5px solid red;*/
 
     }
 
-    footer .section_1{
-        
-/**/
-    }
+
 
     footer .section_1 img{
-     /*   border: 5px solid red;*/
         width: 40%;
     }
 
     footer .section_1 p{
-        /*border: 5px solid yellow;*/
         text-align: justify;
         padding: 10px;
     }
 
     footer .section_2{
          font-size: 3.5vw;
-        /*border: 5px solid purple;*/
     }
 
     footer .section_2 section{
-        /*border: 5px solid red;*/
         width: 100%;
-       /* margin-left: 25px;*/
-        position: relative;
-       /* right: 7px;*/
-    }
+        position: relative;    }
 
     .info_dos section{
         margin-left: 20px;
@@ -286,5 +504,4 @@
 
 
 }
-
-
+*/
