@@ -1,72 +1,33 @@
-       .animate-flicker {
-           text-align: center;
-           display: flex;
-       }
-
-       .animate-flicker div {
-           width: 33%;
-       }
-
-       .animate-flicker i{
-        font-size: 3vw;
-        margin-bottom: 10px;
-       }
-
-       .animate-flicker h3{
-        font-size: 1.2vw;
-       }
-
-       .animate-flicker p{
-        font-size: 0.9vw;
-        padding: 10px;
-       }
+     
+     @media (min-width: 600px) and (max-width: 1100px) {
 
 
+          .animate-flicker {
+              text-align: center;
+              display: flex;
+          }
+
+          .animate-flicker div {
+              width: 50%;
+             
+          }
+
+          .animate-flicker i {
+              font-size: 8vw;
+              margin-bottom: 10px;
+          }
+
+          .animate-flicker h3 {
+              font-size: 2.5vw;
+          }
+
+          .animate-flicker p {
+              font-size: 2vw;
+              padding: 10px;
+              text-align: justify;
+          }
 
 
-       @keyframes flickerAnimation {
-           0% {
-               opacity: 1;
-           }
 
-           80% {
-               opacity: 0;
-           }
-       }
 
-       @-o-keyframes flickerAnimation {
-           0% {
-               opacity: 1;
-           }
-
-           80% {
-               opacity: 1;
-           }
-       }
-
-       @-moz-keyframes flickerAnimation {
-           0% {
-               opacity: 1;
-           }
-
-           80% {
-               opacity: 0;
-           }
-       }
-
-       @-webkit-keyframes flickerAnimation {
-           0% {
-               opacity: 1;
-           }
-
-           80% {
-               opacity: 0;
-           }
-       }
-
-       .animate-flicker {
-           -webkit-animation: flickerAnimation 3s infinite;
-           -moz-animation: flickerAnimation 3s infinite;
-           -o-animation: flickerAnimation 3s infinite;
-           animation: flickerAnimation 3s infinite;
-       }
+      }

@@ -1,158 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 
-@media (min-width: 1300px) {
 
+@media (min-width: 756px) and (max-width: 1100px) {
+
+    body {
+        border: 5px solid purple;
+    }
+
+    /*MARCO PRINCIPAL*/
     .Pagina_Principal {
         overflow: hidden;
         height: 100%;
     }
 
-    .Marco_Secundario {
-        /*border: 7px solid red;*/
-        width: 98%;
-        margin: auto;
-
-    }
-
     .Pagina_Principal nav {
-        height: 80px !important;
+        height: 100% !important;
+        text-align: right;
 
     }
 
-    nav ul li {
-        margin-left: 1.2vw;
+    nav ul {
+        margin-top: 1.5vw;
     }
-
-
 
     .Pagina_Principal nav img {
-        width: 45% !important;
-        height: 55px !important;
-
-
+        width: 22% !important;
+        height: 85px !important;
     }
 
-    .Pagina_Principal .a_img {
-        width: 10% !important;
-    }
 
     .Pagina_Principal nav a {
         color: white !important;
-        font-size: 1.2vw;
+        font-size: 3vw;
     }
 
     .Pagina_Principal nav a:hover {
         color: red !important;
     }
 
+    .boton_responsive {
+        background-color: rgb(192, 192, 192, 0.1);
+    }
+
+    /*MARCO PRINCIPAL*/
+
+
+
+
+    /*-------- MARCO SECUNDARIO -----------*/
+
+
+
+    .Marco_Secundario {
+        width: 98%;
+        margin: auto;
+
+    }
+
+    /*SLIDER DE IMAGENES*/
+
+
     .carousel-inner {
-        /*  border: 4px solid red;*/
-        height: 650px;
+        height: 55vw;
     }
 
     .carousel-item img {
         position: relative;
-        height: 650px;
+        height: 55vw;
     }
 
-    .Info_Servicios {
-        /* border: 4px solid red;*/
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
     .text_carrusel {
         margin: auto;
         position: relative;
         color: white !important;
         background-color: rgb(0, 0, 0, 0.5);
-        top: -347px;
+        top: -29.5vw;
         width: 70%;
 
     }
 
-    .tarjeta_info {
-        display: flex;
-        background-color: rgb(192, 192, 192, 0.1);
-        margin: auto;
-        width: 100%;
-        height: 350px;
-        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+    /*SLIDER DE IMAGENES*/
+
+
+    /*---- Servicios Informacion ---*/
+
+    .Servicios_Informacion {
+        /*border: 4px solid red;*/
     }
 
-    .content_info {
-        /* border: 4px solid black;*/
-        margin-left: 35px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-top: 25px;
-        width: 47%;
-        /*height: 520px;*/
+    .Servicios_Informacion .title_servicios {
+        font-size: 3vw;
     }
 
-    .texto_info {
-        text-align: justify;
-        width: 82%;
-        margin: auto;
-        font-size: 1.03vw !important;
-    }
 
-    .section_info h3 {
-        /*  border: 4px solid red;*/
-        font-size: 1.3vw !important;
-    }
-
-    .section_info {
-        /*   border: 5px solid purple;*/
-        width: 60%;
-    }
-
-    .img_info {
-        width: 50%;
-        border-radius: 5px;
-        margin-right: 10px;
-        /* border-radius: 5px solid red;*/
-    }
-
-    .Publicidad_Extra {
-        text-align: center;
-       /* border: 4px solid red;*/
-    }
-
-    .Publicidad_Extra p {
-        padding: 20px;
-        text-align: justify;
-    }
-
-    .Publicidad_Extra div{
+    .Servicios_Informacion .content_servicios {
         display: flex;
         justify-content: center;
     }
 
-    .Publicidad_Extra section {
-       /* border: 4px solid red;*/
-        width: 30%;
-        margin-left: 25px;
+    .Servicios_Informacion .card {
+        background-color: rgb(192, 192, 192, 0.1);
+        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+        text-align: center;
+        /*margin: auto;*/
+        width: 45% !important;
+        height: 100%;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
 
+    .Servicios_Informacion .card-img-top {
+        width: 100%;
+    }
+
+    .Servicios_Informacion h5 {
+        text-align: left;
+    }
+
+    .Servicios_Informacion p {
+        text-align: justify;
+    }
+
+    /*---- Servicios Informacion ---*/
+
+
+    /*    PUBLICIDAD EXTRA    */
+
+    .Publicidad_Extra {
+        text-align: center;
+        /* border: 5px solid red;*/
+        width: 100%;
+    }
+
+    .Publicidad_Extra section {
+        /*border: 5px solid black;*/
+        width: 70%;
+        margin-left: 20px;
+        height: 330px;
+    }
+
+
+    .Publicidad_Extra p {
+        text-align: justify;
+        padding: 5px;
     }
 
     .Publicidad_Extra video {
         width: 100%;
-        height: 200px;
+        height: 270px;
     }
 
+    /*    PUBLICIDAD EXTRA    */
+
+
+
+
+    /* FOOTER  */
+
     footer {
-      /*  border: 5px solid yellow;*/
+        /*  border: 5px solid yellow;*/
         color: white !important;
         flex-direction: row;
         justify-content: center;
-       /* background-color: black;*/
+        /* background-color: black;*/
         font-size: 1vw;
     }
 
     footer div {
-      /*  border: 5px solid blue;*/
+        /* border: 5px solid blue;*/
         width: 100;
         margin-top: 25px;
     }
@@ -167,7 +183,7 @@
 
 
     footer .section_1 img {
-        width: 30%;
+        width: 50%;
     }
 
     footer .section_1 p {
@@ -176,7 +192,8 @@
     }
 
     footer .section_2 {
-        /*  font-size: 3.5vw;*/
+        width: 60%;
+        font-size: 1.5vw;
     }
 
     footer .section_2 section {
@@ -198,13 +215,12 @@
 
     footer .img-london div {
         margin: auto;
-        width: 70%;
+        width: 80%;
         position: relative;
         text-align: center;
         background-color: white !important;
         border-radius: 10px;
         /* width: 80%;*/
-        height: 170px;
         padding: 10px;
     }
 
@@ -222,12 +238,16 @@
         margin-left: 15px;
     }
 
+    /* FOOTER  */
+
+
+
+
+
+
 
 
 }
-
-
-
 
 
 
