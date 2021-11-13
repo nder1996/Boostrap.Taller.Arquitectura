@@ -240,288 +240,289 @@
 
     /* FOOTER  */
 
-
-
-
-
-
-
-
 }
 
+@media (max-width: 756px) {
 
+    body {
+        border: 5px solid yellow;
+    }
 
-
-
-
-
-
-/*
-@media (min-width: 1000px) {
+    /*MARCO PRINCIPAL*/
     .Pagina_Principal {
         overflow: hidden;
         height: 100%;
     }
 
-    .Marco_Secundario {
-        border: 5px solid red;
-        width: 95%;
-        margin: auto;
-    }
-
-
-
     .Pagina_Principal nav {
-        height: 70px !important;
+        height: 100% !important;
+        text-align: right;
+      /*  border: 5px solid red;*/
+
     }
 
+    nav ul {
+        margin-top: 1.5vw;
+    }
+
+    nav .a_img{
+      /*  border: 5px solid red;*/
+        width: 50%;
+    }
 
     .Pagina_Principal nav img {
-        margin-left: 25px;
+        width: 45% !important;
+        height: 85px !important;
     }
 
-
-    .Pagina_Principal nav ul {
-        position: relative;
-        right: 25px;
-    }
-
-
-    .Pagina_Principal nav li {
-        position: relative;
-        margin-left: 15px;
-
-    }
 
     .Pagina_Principal nav a {
         color: white !important;
-        font-size: 1.2vw;
+        font-size: 4.5vw;
     }
 
     .Pagina_Principal nav a:hover {
         color: red !important;
     }
 
-
-    .Pagina_Principal nav img {
-        height: 60px;
-    }
-
-
-    .carousel-inner {
-        margin: auto;
-        text-align: center;
+    .boton_responsive {
         position: relative;
-        height: 580px;
+        right: 3%;
+        background-color: rgb(192, 192, 192, 0.1);
+        width: 17%;
     }
 
-    .carousel-item img {
-        position: relative;
-        height: 750px;
-    }
-
-    .carousel-caption {
-        position: relative;
-        left: 2px !important;
-        top: -305px;
-        color: white !important;
-        background-color: rgb(0, 0, 0, 0.5);
-    }
+    /*MARCO PRINCIPAL*/
 
 
 
-    .Info_Servicios section {
-        width: 50%;
-        margin-top: 50px;
-    }
 
-    .Info_Servicios img {
-        border-radius: 5px;
-    }
+    /*-------- MARCO SECUNDARIO -----------*/
 
 
-    .section_info {
-        padding: 5px;
-    }
-
-    .section_info p {
-        width: 90%;
-        margin: auto;
-    }
-
-}
-
-*/
-
-/*
-@media (max-width: 600px) {
-
-    .Pagina_Principal {
-        overflow: hidden;
-        height: 100%;
-    }
 
     .Marco_Secundario {
-        width: 100%;
+        width: 98%;
         margin: auto;
-    }
-
-    .Pagina_Principal nav {
-        height: 100% !important;
-        text-align: right;
-    }
-
-    .boton_responsive {
-        background-color: rgb(192, 192, 192, 0.1);
-    }
-
-
-    .Pagina_Principal nav img {
-        width: 60% !important;
-        height: 80px !important;
-
 
     }
 
-    .Pagina_Principal .a_img {
-        width: 30% !important;
-    }
+    /*SLIDER DE IMAGENES*/
 
-    .Pagina_Principal nav a {
-        color: white !important;
-        font-size: 4vw;
-    }
-
-    .Pagina_Principal nav a:hover{
-        color: red !important;
-    }
 
     .carousel-inner {
-        height: 300px;
+        height: 85vw;
     }
 
     .carousel-item img {
         position: relative;
-        height: 400px;
+        height: 85vw;
     }
+
 
     .text_carrusel {
         margin: auto;
         position: relative;
         color: white !important;
         background-color: rgb(0, 0, 0, 0.5);
-        top: -275px;
+        top: -46.5vw;
         width: 70%;
+        font-size: 4.8vw;
 
     }
 
-    .info_card{
-      
+    /*SLIDER DE IMAGENES*/
+
+
+    /*---- Servicios Informacion ---*/
+
+    .Servicios_Informacion {
+        /*border: 4px solid red;*/
     }
 
-
-
-    .tarjeta_info {
-        background-color: rgb(192, 192, 192, 0.1);
-        border: 5px solid red;
-        display: flex;
-        margin: auto;
-        width: 95%;
-        height: 300px;
-        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+    .Servicios_Informacion .title_servicios {
+        font-size: 5vw;
     }
 
-    .content_info {
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-top: 25px;
-    }
-
-    .texto_info {
-        text-align: justify;
-        width: 82%;
-        margin: auto;
-        padding: 5px;
-        font-size: 2.3vw !important;
-    }
-
-    .section_info {
-      border: 5px solid purple;
-        width: 55%;
-
-    }
-
-    .img_info {
-        border-radius: 5px;
-        width: 45%;
-        margin-right: 10px;
-    }
-
-    .Publicidad_Extra{
-        text-align: center;
-    }
-
-    .Publicidad_Extra p{
-        padding: 20px;
-        text-align: justify;
-    }
-
-    .Publicidad_Extra section{
-        margin: auto;
-        width: 90%;
-    }
-
-    .Publicidad_Extra video{
-        width: 100%;    
-    }
-
-    footer{
-        color: white !important;
-        flex-direction: column;
-        justify-content: center;
-        background-color: black;
-        font-size: 4vw;
-    }
-
-    footer div{
-        border: 5px solid black;
-        width: 100;
-        margin-top: 25px;
-
-    }
-
-
-
-    footer .section_1 img{
-        width: 40%;
-    }
-
-    footer .section_1 p{
-        text-align: justify;
+    .Servicios_Informacion .texto_info{
+        text-align: justify !important;
+        font-size: 4.5vw;
         padding: 10px;
     }
 
-    footer .section_2{
+
+    .Servicios_Informacion .content_servicios {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Servicios_Informacion .card {
+        position: relative;
+        right:2% ;
+        background-color: rgb(192, 192, 192, 0.1);
+        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+        text-align: center;
+        /*margin: auto;*/
+        width: 97% !important;
+        height: 100%;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .Servicios_Informacion .card-img-top {
+        width: 100%;
+    }
+
+    .Servicios_Informacion h5 {
+        text-align: left;
+    }
+
+    .Servicios_Informacion p {
+        text-align: justify;
+    }
+
+    /*---- Servicios Informacion ---*/
+
+
+    /*    PUBLICIDAD EXTRA    */
+
+    .Publicidad_Extra {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cuerpo{
+        /*border: 5px solid red;*/
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Publicidad_Extra section {
+        /*border: 5px solid black;*/
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 20px;
+        height: 100%;
+    }
+
+
+    .Publicidad_Extra p {
+        /*border: 5px solid black;*/
+        text-align: justify;
+        padding: 5px;
+       position: relative;
+       right: 3%;
+    }
+
+    .Publicidad_Extra video {
+        position: relative;
+        right: 4%;
+        width: 100%;
+        height: 270px;
+    }
+
+    /*    PUBLICIDAD EXTRA    */
+
+
+
+
+    /* FOOTER  */
+
+    footer {
+        /*  border: 5px solid yellow;*/
+        color: white !important;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color: black;*/
+        font-size: 1vw;
+    }
+
+    footer div {
+     
+        width: 100;
+        margin-top: 25px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Flex_Info {
+        width: 100%;
+    }
+
+    .Flex_Info div {
+        width: 100%;
+    }
+
+
+    footer .section_1 img {
+        width: 30%;
+    }
+
+    footer .section_1 p {
+        text-align: center;
+        padding: 10px;
          font-size: 3.5vw;
     }
 
-    footer .section_2 section{
+    footer .section_2 {
         width: 100%;
-        position: relative;    }
-
-    .info_dos section{
-        margin-left: 20px;
-        width: 40% !important;
-        position: relative;
-        right:17px ;
-    }
-
-    footer .informacion_final{
         font-size: 3.5vw;
     }
 
+    footer .section_2 section {
+        width: 100%;
+        position: relative;
+    }
 
+    .info_dos section {
+        margin-left: 25px;
+        width: 44% !important;
+        position: relative;
+        right: 17px;
+    }
+
+    footer .informacion_final {
+        /* font-size: 3.5vw;*/
+    }
+
+
+    footer .img-london div {
+        margin: auto;
+        width: 90%;
+        height: 100px;
+        position: relative;
+        text-align: center;
+        background-color: white !important;
+        border-radius: 10px;
+        /* width: 80%;*/
+        padding: 10px;
+    }
+
+    footer .img-london h1 {
+        position: relative;
+        color: rgb(84, 89, 95) !important;
+        font-size: 16px;
+    }
+
+    footer .img-london i {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size:6vw;
+        margin-left: 15px;
+    }
+
+    .informacion_final{
+        border: 5px solid red;
+        font-size: 3vw;
+    }
+
+    /* FOOTER  */
 
 
 }
-*/
+

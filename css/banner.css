@@ -31,3 +31,28 @@
 
 
       }
+
+
+      @media (max-width: 756px) {
+
+          .animate-flicker {
+              text-align: center;
+              display: flex;
+          }
+
+          .animate-flicker div {
+              width: 50%;
+             
+          }
+
+          .animate-flicker i {
+              font-size: 13vw;
+              margin-bottom: 10px;
+          }
+
+          .animate-flicker h3 {
+              font-size: 3vw;
+          }
+
+
+      }
