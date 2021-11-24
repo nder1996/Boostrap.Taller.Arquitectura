@@ -1,3 +1,6 @@
+
+/*MI RESPONSIVE*/
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 
 
@@ -40,6 +43,7 @@
 
     .boton_responsive {
         background-color: rgb(192, 192, 192, 0.1);
+
     }
 
     /*MARCO PRINCIPAL*/
@@ -64,8 +68,12 @@
         height: 55vw;
     }
 
+
+
     .carousel-item img {
+    
         position: relative;
+        
         height: 55vw;
     }
 
@@ -244,9 +252,6 @@
 
 @media (max-width: 756px) {
 
-    body {
-        border: 5px solid yellow;
-    }
 
     /*MARCO PRINCIPAL*/
     .Pagina_Principal {
@@ -257,7 +262,6 @@
     .Pagina_Principal nav {
         height: 100% !important;
         text-align: right;
-      /*  border: 5px solid red;*/
 
     }
 
@@ -265,8 +269,7 @@
         margin-top: 1.5vw;
     }
 
-    nav .a_img{
-      /*  border: 5px solid red;*/
+    nav .a_img {
         width: 50%;
     }
 
@@ -336,54 +339,41 @@
 
     /*---- Servicios Informacion ---*/
 
-    .Servicios_Informacion {
-        /*border: 4px solid red;*/
-    }
 
-    .Servicios_Informacion .title_servicios {
-        font-size: 5vw;
-    }
-
-    .Servicios_Informacion .texto_info{
-        text-align: justify !important;
-        font-size: 4.5vw;
-        padding: 10px;
-    }
-
-
-    .Servicios_Informacion .content_servicios {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .Servicios_Informacion .card {
-        position: relative;
-        right:2% ;
+    .Tarjetas .card{
         background-color: rgb(192, 192, 192, 0.1);
-        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
-        text-align: center;
-        /*margin: auto;*/
-        width: 97% !important;
-        height: 100%;
-        margin-left: 15px;
-        margin-top: 15px;
+        box-shadow: -1px -1px 12px 0px rgb(192, 192, 192, 0.9);
+        /*border: 6px solid red;*/
+        margin-top: 10px;
+
     }
 
-    .Servicios_Informacion .card-img-top {
-        width: 100%;
+    .Tarjetas .card .card-body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
-    .Servicios_Informacion h5 {
-        text-align: left;
+    .Tarjetas .card .card-body section{
+        padding: 20px;
+       
     }
 
-    .Servicios_Informacion p {
+    .Tarjetas .card-body h5{
+        font-size: 5.5vw;
+    }
+
+     .Tarjetas .card-body p{
+         padding: 10px;
         text-align: justify;
     }
 
     /*---- Servicios Informacion ---*/
+
+
+
+
+
 
 
     /*    PUBLICIDAD EXTRA    */
@@ -393,7 +383,7 @@
         width: 100%;
     }
 
-    .cuerpo{
+    .cuerpo {
         /*border: 5px solid red;*/
         display: flex;
         flex-direction: row;
@@ -414,8 +404,8 @@
         /*border: 5px solid black;*/
         text-align: justify;
         padding: 5px;
-       position: relative;
-       right: 3%;
+        position: relative;
+        right: 3%;
     }
 
     .Publicidad_Extra video {
@@ -442,7 +432,7 @@
     }
 
     footer div {
-     
+
         width: 100;
         margin-top: 25px;
         flex-direction: row;
@@ -465,7 +455,7 @@
     footer .section_1 p {
         text-align: center;
         padding: 10px;
-         font-size: 3.5vw;
+        font-size: 3.5vw;
     }
 
     footer .section_2 {
@@ -512,12 +502,11 @@
         position: relative;
         text-decoration: none;
         color: black;
-        font-size:6vw;
+        font-size: 6vw;
         margin-left: 15px;
     }
 
-    .informacion_final{
-        border: 5px solid red;
+    .informacion_final {
         font-size: 3vw;
     }
 
@@ -526,3 +515,250 @@
 
 }
 
+
+
+@media (min-width: 1100px) {
+
+    body {
+        border: 5px solid red;
+    }
+
+    /*MARCO PRINCIPAL*/
+    .Pagina_Principal {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .Pagina_Principal nav {
+        height: 75px !important;
+
+    }
+
+
+    .Pagina_Principal nav img {
+        width: 100% !important;
+        height: 70px !important;
+    }
+
+    nav ul li {
+        margin-left: 0.5vw;
+    }
+
+
+    .Pagina_Principal nav a {
+        color: white !important;
+        font-size: 1.2vw;
+    }
+
+    .Pagina_Principal nav a:hover {
+        color: red !important;
+    }
+
+    .boton_responsive {
+        background-color: rgb(192, 192, 192, 0.1);
+
+    }
+
+    /*MARCO PRINCIPAL*/
+
+
+
+
+    /*-------- MARCO SECUNDARIO -----------*/
+
+
+
+    .Marco_Secundario {
+        /* border: 5px solid yellow;*/
+        width: 90%;
+        margin: auto;
+
+    }
+
+    /*SLIDER DE IMAGENES*/
+
+    .carousel {
+        border: 1px solid grey;
+    }
+
+    .carousel-inner {
+        height: 600px;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 600px;
+    }
+
+
+    .text_carrusel {
+        margin: auto;
+        position: relative;
+        color: white !important;
+        background-color: rgb(0, 0, 0, 0.5);
+        top: -20.7vw;
+        width: 70%;
+        font-size: 2vw;
+
+    }
+
+    /*SLIDER DE IMAGENES*/
+
+
+    /*---- Servicios Informacion ---*/
+
+    .Servicios_Informacion {
+        /* border: 4px solid red;*/
+    }
+
+    .Tarjetas {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Tarjetas .card {
+        background-color: rgb(192, 192, 192, 0.1);
+        box-shadow: 5px 5px 15px 5px rgb(192, 192, 192, 0.9);
+        width: 45%;
+        margin-left: 1vw;
+        margin-top: 3vw;
+
+    }
+
+    .Tarjetas .card section {
+        border: 1px solid grey;
+        width: 50%;
+        margin-left: 1vw;
+        /* width: 50%;
+        height: 40vw;
+        height: 40px;*/
+    }
+
+    .Tarjetas p {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .Tarjetas img {
+        margin-top: 1vw;
+    }
+
+
+    /*    PUBLICIDAD EXTRA    */
+
+    .Publicidad_Extra {
+        text-align: center;
+        /* border: 5px solid red;*/
+        width: 100%;
+    }
+
+    .Publicidad_Extra section {
+        /*border: 5px solid black;*/
+        width: 70%;
+        margin-left: 20px;
+        height: 330px;
+    }
+
+
+    .Publicidad_Extra p {
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .Publicidad_Extra video {
+        width: 100%;
+        height: 270px;
+    }
+
+    /*    PUBLICIDAD EXTRA    */
+
+
+
+
+    /* FOOTER  */
+
+    footer {
+        /*  border: 5px solid yellow;*/
+        color: white !important;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color: black;*/
+        font-size: 1vw;
+    }
+
+    footer div {
+        /* border: 5px solid blue;*/
+        width: 100;
+        margin-top: 25px;
+    }
+
+    .Flex_Info {
+        width: 100%;
+    }
+
+    .Flex_Info div {
+        width: 43%;
+    }
+
+
+    footer .section_1 img {
+        width: 50%;
+    }
+
+    footer .section_1 p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer .section_2 {
+        width: 60%;
+        font-size: 1.5vw;
+    }
+
+    footer .section_2 section {
+        width: 100%;
+        position: relative;
+    }
+
+    .info_dos section {
+        margin-left: 25px;
+        width: 44% !important;
+        position: relative;
+        right: 17px;
+    }
+
+    footer .informacion_final {
+        /* font-size: 3.5vw;*/
+    }
+
+
+    footer .img-london div {
+        margin: auto;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        background-color: white !important;
+        border-radius: 10px;
+        /* width: 80%;*/
+        padding: 10px;
+    }
+
+    footer .img-london h1 {
+        position: relative;
+        color: rgb(84, 89, 95) !important;
+        font-size: 16px;
+    }
+
+    footer .img-london i {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vw;
+        margin-left: 15px;
+    }
+
+    /* FOOTER  */
+
+}
